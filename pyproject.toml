@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "music_embedder"
+version = "0.0.1"
+description = "A naive attempt to create reasonable embeddings for unsupervised music clustering"
+authors = [
+  "edazizovv",
+]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "music_embedder"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
